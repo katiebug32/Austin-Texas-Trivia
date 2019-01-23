@@ -67,7 +67,7 @@ function getGameData() {
                 ans: {
                     A: "Randall's",
                     B: "Whole Foods",
-                    C: "Kroger",
+                    C: "HEB",
                     D: "None of the above"
                 },
                 correctAnswer: "B",
