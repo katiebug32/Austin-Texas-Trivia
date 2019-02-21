@@ -91,7 +91,7 @@ function getGameData() {
 var gameData = getGameData();
 const QUESTION_TIME_PERIOD = 15; // bc I can't decide how long I want my question timer, so this makes it easier to change that value in all the places 
 var qTimeRem = QUESTION_TIME_PERIOD;
-var dispTimeRem = 6;
+var dispTimeRem = 10;
 var questionTimerInterval;
 var answerDisplayInterval;
 var ansID;
@@ -112,7 +112,7 @@ function beginQtimer() {
 
 function beginAnswerTimer() {
     clearInterval(answerDisplayInterval);
-    dispTimeRem = 6;
+    dispTimeRem = 10;
     answerDisplayInterval = setInterval(decrementAns, 1000);
 };
 
